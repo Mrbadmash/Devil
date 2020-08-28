@@ -61,6 +61,25 @@ cpb = []
 oks = []
 id = []
 
+CorrectUsername = "Qaiser"
+CorrectPassword = "Devil"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;97m🔒\x1b[1;93mTool Username \x1b[1;97m»» \x1b[1;97m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;97m🔐 \x1b[1;93mTool Password  \x1b[1;97m»» \x1b[1;97m")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username #Dev:love_hacker
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;97mWrong Password"
+            os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
+    else:
+        print "\033[1;97mWrong Username"
+        os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
+
 def menu():
     os.system('clear')
     print logo
