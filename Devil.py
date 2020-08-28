@@ -54,12 +54,27 @@ def cb():
     os.system('clear')
 
 
-logo = '\033[0;34m==================\033[4;43;91mGitHub \033[1;0m:-\033[30;46;91mhttps://github.com/TechQaiser.............\033[1;0m\033[4;43;91mFacebook \033[1;0m :-\033[30;41;96m Qaiser Abbas.........\033[1;0m\033[4;43;91mYouTube\033[1;0m :-\033[30;41;96mTech Qaiser........\033[1;0m\033[0;34m==================                                                    '
+logo = '\033[0;34m============\033[4;43;91mGitHub \033[1;0m:-\033[30;46;91mhttps://github.com/TechQaiser.............\033[1;0m\033[4;43;91mFacebook \033[1;0m :-\033[30;41;96m Qaiser Abbas.........\033[1;0m\033[4;43;91mYouTube\033[1;0m :-\033[30;41;96mTech Qaiser........\033[1;0m\033[0;34m============                                                    '
 back = 0
 successful = []
 cpb = []
 oks = []
 id = []
+
+print """
+                          [ Ξ↷⊕⊕⊕↶Ξ ]
+                          
+\033[4;44;95mTHIS TOOL IS CREATED BY QAISER ABBAS.\033[1;0m
+\033[4;44;95mNOTE I AM NOT RESPONSIBLE FOR ANY MISS USE.\033[1;0m"""
+
+jalan("\033[4;41;43m░██████╗░░█████╗░██╗░██████╗███████╗██████╗░\033[1;0m")
+jalan("\033[4;41;43m██╔═══██╗██╔══██╗██║██╔════╝██╔════╝██╔══██╗\033[1;0m")
+jalan("\033[4;41;43m██║██╗██║███████║██║╚█████╗░█████╗░░██████╔╝\033[1;0m")
+jalan("\033[4;41;43m╚██████╔╝██╔══██║██║░╚═══██╗██╔══╝░░██╔══██╗\033[1;0m")
+jalan("\033[4;41;43m░╚═██╔═╝░██║░░██║██║██████╔╝███████╗██║░░██║\033[1;0m")
+jalan("\033[4;41;43m░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝\033[1;0m")
+
+jalan("※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※")
 
 CorrectUsername = "Qaiser"
 CorrectPassword = "Devil"
@@ -84,31 +99,31 @@ def menu():
     os.system('clear')
     print logo
     print '     '
-    print '\x1b[1;92m     [1]\x1b[1;91m  Bangladesh'
+    print '\x1b[1;92m[1]\x1b[1;91m  Bangladesh'
     
-    print '\x1b[1;94m     [2]\x1b[1;92m  USA'
+    print '\x1b[1;94m[2]\x1b[1;92m  USA'
     
-    print '\x1b[1;96m     [3]\x1b[1;93m  UK'
+    print '\x1b[1;96m[3]\x1b[1;93m  UK'
     
-    print '\x1b[1;97m     [4] \x1b[1;94m India'
+    print '\x1b[1;97m[4] \x1b[1;94m India'
     
-    print '\x1b[1;91m     [5]\x1b[1;95m  Brazil'
+    print '\x1b[1;91m[5]\x1b[1;95m  Brazil'
     
-    print '\x1b[1;93m     [6]\x1b[1;96m  Japan'
+    print '\x1b[1;93m[6]\x1b[1;96m  Japan'
     
-    print '\x1b[1;95m     [7]\x1b[1;97m  Korea'
+    print '\x1b[1;95m[7]\x1b[1;97m  Korea'
     
-    print '\x1b[1;96m     [8]\x1b[1;91m  Italy'
+    print '\x1b[1;96m[8]\x1b[1;91m  Italy'
     
-    print '\x1b[1;92m     [9]\x1b[1;92m  Spain'
+    print '\x1b[1;92m[9]\x1b[1;92m  Spain'
     
-    print '\x1b[1;94m     [10]\x1b[1;93m Poland'
+    print '\x1b[1;94m[10]\x1b[1;93m Poland'
     
-    print '\x1b[1;96m     [11]\x1b[1;94m Pakistan'
+    print '\x1b[1;96m[11]\x1b[1;94m Pakistan'
     
-    print '\x1b[1;97m     [12]\x1b[1;95m Indonisia'
+    print '\x1b[1;97m[12]\x1b[1;95m Indonisia'
     
-    print '  [0]\x1b[1;97m  Exit        '
+    print '.                       [0]\x1b[1;97mExit        '
     print '        '
     action()
 
