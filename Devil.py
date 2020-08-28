@@ -1,10 +1,12 @@
-#Written by Qaiser
-#If You Want To Get Creadit Then First Look Yourself Again
+#!/usr/bin/python2
+#coding=utf-8
+#The Credit For This Code Goes To Tech Qaiser
+#If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
-
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
 for n in range(1000):
+	
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
