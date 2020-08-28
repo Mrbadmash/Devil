@@ -67,29 +67,29 @@ def menu():
     print '     '
     print '\x1b[1;92m     [1]\x1b[1;91m  Bangladesh'
     
-    print '\x1b[1;94m           [2]\x1b[1;92m  USA'
+    print '\x1b[1;94m    [2]\x1b[1;92m  USA'
     
     print '\x1b[1;96m     [3]\x1b[1;93m  UK'
     
-    print '\x1b[1;97m            [4] \x1b[1;94m India'
+    print '\x1b[1;97m    [4] \x1b[1;94m India'
     
     print '\x1b[1;91m     [5]\x1b[1;95m  Brazil'
     
-    print '\x1b[1;93m            [6]\x1b[1;96m  Japan'
+    print '\x1b[1;93m     [6]\x1b[1;96m  Japan'
     
     print '\x1b[1;95m     [7]\x1b[1;97m  Korea'
     
-    print '\x1b[1;96m            [8]\x1b[1;91m  Italy'
+    print '\x1b[1;96m     [8]\x1b[1;91m  Italy'
     
     print '\x1b[1;92m     [9]\x1b[1;92m  Spain'
     
-    print '\x1b[1;94m            [10]\x1b[1;93m Poland'
+    print '\x1b[1;94m   [10]\x1b[1;93m Poland'
     
     print '\x1b[1;96m     [11]\x1b[1;94m Pakistan'
     
-    print '\x1b[1;97m            [12]\x1b[1;95m Indonisia'
+    print '\x1b[1;97m     [12]\x1b[1;95m Indonisia'
     
-    print '\x1b[1;91m     [13]\x1b[1;96m Update Tool'
+    print '\x1b[1;91m     [13]\x1b[1;96m Subscribe My Channel'
     
     print '  [0]\x1b[1;97m  Exit        '
     print '        '
@@ -296,7 +296,7 @@ def action():
             menu()
 
     elif bch == '13':
-        os.system('xdg-open https://youtu.be/bnitNSNYX5o')
+        os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
         login()
     elif bch == '0':
         exb()
